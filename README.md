@@ -78,7 +78,7 @@ nano ~/.zshrc
 and add something like this:
 ```bash
 XOLtab(){
-  python3 /home/(yourusername)/Downloads/XOLtab.py
+  sudo python3 /home/(yourusername)/Downloads/XOLtab.py
 }
 ```
 and then save:
@@ -90,6 +90,7 @@ or:
 source ~/.zshrc
 ```
 or wherever your script is installed
+NOTE: you need sudo privleges if you want the device model to show
 
 ---
 
